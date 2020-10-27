@@ -68,12 +68,37 @@ margin-left: 23rem;/**centar el logo**/
     min-height: 60rem;
 }
 /** contenido del menu de inicio**/
-.navegacion a{
-    color: rgb(0, 88, 131);
-    text-decoration: none;
-    font-size: 2rem;
-    margin-right: 1.5rem;
+.navegacion div{
+    list-style: none;
+    background-color: rgb(0, 88, 131);
+    float: left;
+    
 }
-.navegacion a:last-of-type{
+
+.navegacion div li a{
+   
+    text-decoration: none; 
+    color: white;
+    padding: 1rem 1rem;
+    display: block;
+    float: left;
+   
+}
+.navegacion div  ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0; 
+    float: left;
+    
+    
+}
+
+.navegacion div li{
+    float: left;
+}
+
+
+
+.navegacion div:last-of-type{
     margin: 0;
 }
