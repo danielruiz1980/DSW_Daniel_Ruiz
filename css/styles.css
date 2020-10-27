@@ -64,7 +64,7 @@ body{
 
 
 .contenido-header-otras h1{/**formato para h1 de pagina de inicio**/
-    color: rgb(240, 180, 41);
+    color: white;
     font-size: 8.5rem;
     padding-bottom: 12rem;
     margin-left: 13rem;   
@@ -101,7 +101,7 @@ margin-right: 1rem;
 
 /** header otras páginas*/
 .site-header.resto{
-    background-image: url(../imagenes/fondo.jpg);
+    background-image: url(../imagenes/Barra.jpg);
     background-position: unset ;
     background-size: cover;
     height: 30vh;
