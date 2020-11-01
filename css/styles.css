@@ -9,7 +9,28 @@ body{
    
 }
 
+/**estandarizar los h**/
+h1{
+    font-size: 3.8rem;
+}
 
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+
+h3{
+    font-size: 2.6rem;
+
+}
+
+p{
+    font-size: 2rem;
+}
 /**Globales**/
 
 .contenedor{
@@ -19,6 +40,11 @@ body{
     
 }
 
+/**utilidades**/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 .contenido-header{
     height: 100%;
@@ -39,9 +65,9 @@ body{
 
 .contenido-header p{
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding-bottom: 2rem;
-    max-width: 60rem;
+    max-width: 65rem;
     margin-left: 80rem;
 }
 
