@@ -34,7 +34,7 @@ p{
 /**Globales**/
 
 .contenedor{
-    max-width: 150rem;
+    max-width: 140rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -195,8 +195,12 @@ margin-right: 1rem;
     justify-content: space-between;
 }
 
+.objetivos :last-of-type{
+    margin: 1rem;
+}
+
 .ob{
-    flex-basis: calc( 33.3% - 2rem);
+    flex-basis: calc( 33.3% - 4rem);
 
 }
 
