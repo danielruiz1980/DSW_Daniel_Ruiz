@@ -29,12 +29,12 @@ h3{
 }
 
 p{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 /**Globales**/
 
 .contenedor{
-    max-width: 130rem;
+    max-width: 150rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -82,7 +82,7 @@ p{
 }
 
 .contenedor-otras{
-    max-width: 130rem;
+    max-width: 150rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -112,9 +112,12 @@ margin-left: 2.5rem;
 }
 
 #logo{
-margin-left: 23rem;/**centrar el logo de html5**/
+margin-left: 26rem;/**centrar el logo de html5**/
 margin-right: 1rem;
+
 }
+
+
 
 /** header de página de inicio**/
 .site-header.inicio{
@@ -135,8 +138,9 @@ margin-right: 1rem;
 }
 /** contenido del menu de inicio**/
 
-.navegacion{
+.navegacion{/**caja pricipal del menu**/
     border-radius: 2rem;
+    margin-right: 5rem;
 }
 
 .navegacion ul{
@@ -155,6 +159,7 @@ margin-right: 1rem;
     border: 0.05rem solid rgb(255, 255, 255);   
     font-size: 1.8rem;
     border-radius: 0.9rem;
+    
 }
     
     
@@ -183,3 +188,15 @@ margin-right: 1rem;
 .navegacion :last-of-type{
     margin: 0;
 }
+
+
+.objetivos{/**flexbox para distribuir espacio entre los intens**/
+    display: flex;
+    justify-content: space-between;
+}
+
+.ob{
+    flex-basis: calc( 33.3% - 2rem);
+
+}
+
