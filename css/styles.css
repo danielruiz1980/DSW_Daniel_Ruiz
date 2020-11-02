@@ -6,6 +6,7 @@ html{
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.6rem;
+    line-height: 1.6;
    
 }
 
@@ -46,7 +47,7 @@ p{
     margin-bottom: 2rem;
 }
 
-.contenido-header{
+.contenido-header{/**flexbox filas**/
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -57,8 +58,8 @@ p{
 .contenido-header h1{/**formato para h1 de pagina de inicio**/
     color: rgb(240, 180, 41);
     font-size: 8.5rem;
-    padding-bottom: 12rem;
-    margin-left: 13rem;   
+    padding-bottom: 12rem;    
+    text-align: center;    
     
    
 }
@@ -195,12 +196,46 @@ margin-right: 1rem;
     justify-content: space-between;
 }
 
-.objetivos :last-of-type{
+.objetivos :last-of-type{/*espacio entre header y section*/
     margin: 1rem;
 }
 
 .ob{
-    flex-basis: calc( 33.3% - 4rem);
+    flex-basis: calc( 33.3% - 4rem);/**función cal para distribuir  los elemnetos en flexbox**/
 
+}
+
+.ob h2{
+    text-transform: capitalize;
+}
+
+.encabezado_semantica :last-of-type{
+    margin: 3rem;
+}
+
+.encabezado_semantica{
+    text-align: center;
+}
+
+
+
+.image_vs{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagen_main p{
+    font-size: 1.5rem;
+text-align: center;
+line-height: 0.01;
+
+}
+.imagen_main{
+    display: flex;
+    flex-direction: column;
+    
+   
 }
 
