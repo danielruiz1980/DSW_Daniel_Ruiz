@@ -112,10 +112,10 @@ p{
 .contenido-header-otras h1{/**formato para h1 de pagina de inicio**/
     color: white;
     font-size: 8.5rem;
-    padding-bottom: 12rem;
-    margin-left: 13rem;   
+    text-align: center;
+    margin: 0;
     
-   
+      
 }
 
 
@@ -154,7 +154,7 @@ margin-right: 1rem;
     background-position: unset ;
     background-size: cover;
     height: 30vh;
-    min-height: 30rem;
+    min-height: 28rem;
 }
 /** contenido del menu de inicio**/
 
@@ -247,7 +247,7 @@ margin-right: 1rem;
 }
 
 .imagen_main p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     line-height: 0.01;
     padding-top: 0rem;
@@ -296,4 +296,17 @@ margin-right: 1rem;
     margin: 0;
     color: rgb(255, 255, 255);
     
+}
+
+.img_contenido_uno{
+    display: block;
+    text-align: center;
+    padding: 0;  
+
+}
+
+.img_contenido_uno p{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
 }
