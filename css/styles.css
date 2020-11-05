@@ -336,3 +336,23 @@ margin-right: 1rem;
     margin: 0;
     padding: 0;
 }
+
+.img_contenido_dos{
+    display: block;
+    text-align: center;
+    padding: 0;  
+    padding-bottom: 1rem;
+}
+
+.img_contenido_dos p{/**referencia de imagenes**/
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cot_dos p{
+    padding-top: 1rem;
+    padding: 0;
+    
+}
