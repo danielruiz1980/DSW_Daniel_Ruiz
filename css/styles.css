@@ -38,6 +38,11 @@ h3{
 p{/**estandar parrafos**/
     font-size: 1.8rem;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
 /**Globales**/
 .boton{
     color: rgb(255, 255, 255);
@@ -362,4 +367,10 @@ margin-right: 1rem;
     text-align: center;
     padding: 0;  
     
+}
+
+.mapa{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
